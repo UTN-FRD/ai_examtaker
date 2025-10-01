@@ -1,0 +1,19 @@
+[project]
+name = "examtaker"
+version = "0.1.0"
+description = "Examtaker for UTN LSI FRD"
+authors = [
+    {name = "Gabriel Viera",email = "sgviera@frd.utn.edu.ar"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic (>=2.11.9,<3.0.0)",
+    "pydantic-settings (>=2.11.0,<3.0.0)",
+    "google-genai (>=1.39.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

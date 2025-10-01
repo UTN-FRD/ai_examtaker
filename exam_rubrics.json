@@ -1,0 +1,28 @@
+{
+  "criteria": [
+    {
+      "name": "Completitud",
+      "description": "¿La respuesta aborda todos los aspectos de la pregunta de manera completa?"
+    },
+    {
+      "name": "Precisión técnica",
+      "description": "¿La respuesta es técnicamente correcta y precisa en sus conceptos?"
+    },
+    {
+      "name": "Claridad y coherencia",
+      "description": "¿La respuesta está bien explicada, es clara y coherente?"
+    },
+    {
+      "name": "Profundidad",
+      "description": "¿La respuesta demuestra comprensión profunda del tema?"
+    }
+  ],
+  "scale": {
+    "0": "No respondió o respuesta completamente incorrecta",
+    "1-3": "Insuficiente - Respuesta muy incompleta o con errores graves",
+    "4-6": "Regular - Respuesta parcial con algunos conceptos correctos",
+    "7-8": "Bueno - Respuesta sólida con conceptos correctos y bien explicados",
+    "9-10": "Excelente - Respuesta completa, precisa y con gran profundidad"
+  },
+  "instructions": "Evalúa cada respuesta considerando todos los criterios. Sé justo pero exigente. Proporciona una justificación clara para cada puntuación."
+}
